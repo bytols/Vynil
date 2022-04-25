@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="Untitled-2.css">
+        <title> Página Principal </title>
+        <style>
+            body{
+                background-image: url(media/4714364.png);
+            }
+        </style>
+    </head>
+    <body>
+       <header class="topoprincipal">   
+           
+            <nav class="navbar">
+                <a class="3bars" href="#" onclick="openSlideMenu()"> <img src="media/sidebar.png" alt="" style="height: 40px;"></a>
+            </nav>
+        
+            <div id="sidemenu" class="side-nav">
+                <a href="#" class="close" onclick="closeSlideMenu()"> &times; </a>
+                <a href="Main Page.html"> home </a>
+                <a href="Novidades.html"> contato </a>
+                <a href="discos.html"> produtos </a>
+                <a href="sobre.html"> sobre </a>
+            </div>
+            <script>
+                function openSlideMenu(){
+                    document.getElementById('sidemenu').style.width ='250px';
+                }
+                function closeSlideMenu(){
+                    document.getElementById('sidemenu').style.width ='0px';
+                }
+            </script>        
+           
+           <h1 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; text-align: center; position: relative; top: 30px;">Seja bem vindo ao maior acervo <br> de discos da internet</h1>
+        </header>
+        
+        <a href="discos.html"> <img src="media/Banner_Facebook_Easy-Resize.com_.jpg" style="height: 766px; width: 2200px;" alt=""></a>
+        
+        <footer class="meioprincipal"> <br>
+            <P style="text-align: center;">Terms & Conditions / Privacy / Help / Shipping / Returns & Exchanges / Contact</P> 
+                <P style="text-align: center;"> © 2022 Vinil Planet </P>
+                <p style="text-align: center;"> Powered by eu?</p>
+        </footer>
+    
+    </body>
+
+</html>

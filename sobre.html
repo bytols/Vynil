@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <meta lang="pt-br">
+    <link rel="stylesheet" href="sobre.css">
+    <style>
+        body{
+            background-image: url(media/4714364.png);
+        }
+    </style>
+    <body>
+        <head class="header">
+            
+            <nav class="navbar">
+                <a class="3bars" href="#" onclick="openSlideMenu()"> <img src="media/sidebar.png" alt="" style="height: 40px;"></a>
+                <a href="Main Page.html"><img src="media/bd965821cb0e6f1c74c52dfe6251b3a0-nada-como-o-distintivo-de-vinil-preto.png" style="position: absolute; left:770px; height: 150px; top: 1px;" alt=""> </a>
+            </nav>
+            
+            <div id="sidemenu" class="side-nav">
+                <a href="#" class="close" onclick="closeSlideMenu()"> &times; </a>
+                <a href="Main Page.html"> home </a>
+                <a href="Novidades.html"> contato </a>
+                <a href="discos.html"> produtos </a>
+                <a href="sobre.html"> sobre </a>
+            </div>
+            
+            <script>
+                function openSlideMenu(){
+                    document.getElementById('sidemenu').style.width ='250px';
+                }
+                function closeSlideMenu(){
+                    document.getElementById('sidemenu').style.width ='0px';
+                }
+            </script> 
+            <div class="space">
+
+            </div class="fundo">
+            <div>
+                <h1 style="text-align: center;"> Sobre nós</h1> <br>
+                <h2 style="text-align: center;"> Fundada em 2022 <br> Nós somos a "Nothing like vinyl" uma empresa de tem o desejo <br>de divulgar a arte musical atráves dos discos de vinil1</h2>
+                <h3> Nosso diferencial enquanto empresa:</h3>
+                <ul>
+                    <li>Compra segura</li>
+                    <li> Entregas velozes</li>
+                    <li> O maior acervo da internet </li>
+                    <li> atendimento ao cliente 24h</li>
+                </ul>
+            </div>
+        </head>
+        <footer class="footer">
+            <P style="text-align: center;">Terms & Conditions / Privacy / Help / Shipping / Returns & Exchanges / Contact</P> 
+            <P style="text-align: center;"> © 2022 Vinil Planet </P>
+            <p style="text-align: center;"> Powered by eu?</p>
+        </footer>
+    </body>
+</html>

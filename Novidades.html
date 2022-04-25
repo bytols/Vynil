@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UFT-8">
+        <title> Novidades </title>
+        <link rel="stylesheet" href="novidades.css">
+        <style>
+            body{
+                background-image: url(media/4714364.png);
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar">
+            <a class="3bars" href="#" onclick="openSlideMenu()"> <img src="media/sidebar.png" alt="" style="height: 40px;"></a>
+            <a href="Main Page.html"><img src="media/bd965821cb0e6f1c74c52dfe6251b3a0-nada-como-o-distintivo-de-vinil-preto.png" style="position: absolute; left:730px; height: 150px; top: 1px;" alt=""> </a>
+        </nav>
+        
+        <div id="sidemenu" class="side-nav">
+            <a href="#" class="close" onclick="closeSlideMenu()"> &times; </a>
+            <a href="Main Page.html"> home </a>
+            <a href="Novidades.html"> contato </a>
+            <a href="discos.html"> produtos </a>
+            <a href="sobre.html"> sobre </a>
+        </div>
+        
+        <script>
+            function openSlideMenu(){
+                document.getElementById('sidemenu').style.width ='250px';
+            }
+            function closeSlideMenu(){
+                document.getElementById('sidemenu').style.width ='0px';
+            }
+        </script> 
+        <div class="espaço">
+        </div>
+        <div>
+            <nav class="navcadastro">
+        
+                 <form class="cadastro">
+                     <label for="email">E-mail:</label><br>
+                     <input type="email" id="email"><br>
+                     <label for="password">Senha:</label><br>
+                     <input type="password" required><br>
+                     <label for="password">Confirmar Senha:</label><br>
+                     <input type="password" required><br>
+                     <label for="text">Número do CPF:</label><br>
+                     <input type="text" required><br>
+                     <label for="password">Telefone:</label><br>
+                     <input type="text" required><br><br>
+                     
+                     <input type="submit" value="Login">
+                     
+                 </form>
+                 <img src="media/download.jpg" alt="" id="img"> 
+             </nav>
+        </div>
+        <div>
+
+        <nav id="socials"> 
+            
+            <img src="media/istockphoto-1134890323-612x612.jpg" id="img2">
+            <a href="https://www.facebook.com"  id="media1"> <img id="media1" src="/media/facebook-icon-preview-400x400.png" alt=""> </a>
+            <a href="https://www.instagram.com"  id="media2"> <img id="media2" src="/media/instagram-icon.png" alt=""> </a>
+        </nav>
+            
+    </body>
+    
+     
+</html>
